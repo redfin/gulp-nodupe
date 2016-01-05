@@ -1,0 +1,39 @@
+{
+  "name": "@redfin/gulp-break-on-duplicate-files",
+  "version": "0.0.1",
+  "description": "A Redfin private package",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp prepublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.redfin.com/scm/red/svg.git"
+  },
+  "license": "Unlicensed",
+  "engines": {
+    "node": "4.2.3",
+    "npm": "2.14.7"
+  },
+  "dependencies": {
+    "babel": "6.3.13",
+    "babel-core": "6.3.13",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-register": "6.3.13",
+    "del": "2.2.0",
+    "gulp": "3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-eslint": "^1.1.1",
+    "gulp-nsp": "^2.1.0",
+    "gulp-requirejs": "0.1.3",
+    "gulp-rename": "1.2.2",
+    "gulp-util": "3.0.7",
+    "lazypipe": "1.0.1",
+    "through2": "2.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://qa-compile-1.redfintest.com:4873"
+  }
+}
