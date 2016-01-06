@@ -7,10 +7,6 @@
     "test": "gulp test",
     "prepublish": "gulp prepublish"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://stash.redfin.com/scm/red/svg.git"
-  },
   "license": "Unlicensed",
   "engines": {
     "node": "4.2.3",
