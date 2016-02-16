@@ -7,6 +7,8 @@
     "test": "gulp test",
     "prepublish": "gulp prepublish"
   },
+  "author": "Doug Wade <doug.wade@redfin.com>",
+  "owner": "Doug Wade <doug.wade@redfin.com>",
   "license": "Unlicensed",
   "engines": {
     "node": "4.2.3",
