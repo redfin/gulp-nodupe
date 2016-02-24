@@ -11,8 +11,8 @@
   "owner": "Doug Wade <doug.wade@redfin.com>",
   "license": "Unlicensed",
   "engines": {
-    "node": "4.2.3",
-    "npm": "2.14.7"
+    "node": ">=4.2.3",
+    "npm": ">=2.14.7"
   },
   "dependencies": {
     "babel": "6.3.13",
