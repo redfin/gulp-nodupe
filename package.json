@@ -1,7 +1,7 @@
 {
-  "name": "@redfin/gulp-break-on-duplicate-files",
-  "version": "0.0.4",
-  "description": "A Redfin private package",
+  "name": "gulp-nodupe",
+  "version": "0.0.1",
+  "description": "Breaks a gulp stream if a duplicate file is encountered",
   "main": "index.js",
   "scripts": {
     "test": "gulp test",
@@ -9,7 +9,7 @@
   },
   "author": "Doug Wade <doug.wade@redfin.com>",
   "owner": "Doug Wade <doug.wade@redfin.com>",
-  "license": "Unlicensed",
+  "license": "Apache License 2.0",
   "engines": {
     "node": ">=4.2.3",
     "npm": ">=2.14.7"
@@ -30,8 +30,5 @@
     "gulp-util": "3.0.7",
     "lazypipe": "1.0.1",
     "through2": "2.0.0"
-  },
-  "publishConfig": {
-    "registry": "http://qa-compile-1.redfintest.com:4873"
   }
 }

@@ -1,4 +1,4 @@
 module.exports = {
-	"src": "index.babel.js",
-	"dest": ".",
+  "src": "index.babel.js",
+  "dest": ".",
 };

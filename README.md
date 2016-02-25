@@ -1,22 +1,18 @@
 # Overview
 
-Breaks a gulp stream if a duplicate files are piped through it.
+Breaks a gulp stream if a duplicate files are piped through it.  Similar to [gulp-dedupe](https://www.npmjs.com/package/gulp-dedupe), but intended to be used when the duplicate has to be removed by a human, rather than automatically.
 
 # USAGE
 
 It couldn't be simpler -- just add it to your pipe.
 
-  var gulp = require('gulp');
-  var breakOnDuplicateSvg = require('@redfin/gulp-break-on-duplicate-files');
+    var gulp = require('gulp');
+    var nodupe = require('nodupe');
 
-  gulp.task('breakOnDuplicateFiles', function() {
-    gulp.src('relative/path/to/*.glob')
-      .pipe(breakOnDuplicateSvg())
-      .pipe(gulp.dest('relative/path/to/dist'));
-  });
+    gulp.task('breakOnDuplicates', function() {
+      gulp.src('path/to/*.glob')
+        .pipe(nodupe())
+        .pipe(gulp.dest('path/to/dist'));
+    });
 
-Takes no options.  For a more involved example, see @redfin/svg.
-
-# Contributing
-
-Make sure it lints (`eslint ~/code/main/redfin.npm/redfin.gulp.generate-components`), and include [doug.wade@](mailto:doug.wade@redfin.com) on prs.
+Takes no options.
